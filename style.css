@@ -65,7 +65,7 @@ table {
 
   /* For screens smaller than 768px */
   #nav {
-    padding-left: 20%;
+    padding-left: 25%;
   }
 
   .section0 {
@@ -85,15 +85,18 @@ table {
 
 
   /* For screens smaller than 480px */
-  .section0 {
-    font-size: 0.8rem;
-  }
+  #nav {
+    padding-left: 25%;
 
-  .section1 {
-    font-size: 4rem;
-  }
+    .section0 {
+      font-size: 0.8rem;
+    }
 
-  .section2 {
-    font-size: 0.6rem;
+    .section1 {
+      font-size: 4rem;
+    }
+
+    .section2 {
+      font-size: 0.6rem;
+    }
   }
-}

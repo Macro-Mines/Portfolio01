@@ -16,15 +16,16 @@ body {
   margin-bottom: 1%;
   font-family: 'Courier New', Courier, monospace;
   color: black;
+  font-size: 2rem;
 }
 
 #title0 {
-  font-size: 2rem;
+  font-size: 100%;
   margin-left: 2%;
 }
 
 #nav {
-  font-size: 1rem;
+  font-size: 50%;
   text-align-last: right;
   padding-left: 40%;
 }
@@ -35,9 +36,9 @@ body {
   font-size: 10rem;
   color: black;
   background-color: white;
-  padding-top: 5%;
+  padding-top: 8%;
   padding-left: 2%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -50,9 +51,13 @@ body {
   background-color: black;
   font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   padding-left: 2%;
+}
+
+table {
+  padding-top: 2%;
 }
 
 @media (max-width: 768px) {
@@ -60,15 +65,15 @@ body {
 
   /* For screens smaller than 768px */
   .section0 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .section1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .section2 {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -81,10 +86,10 @@ body {
   }
 
   .section1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .section2 {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
 }

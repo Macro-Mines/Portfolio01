@@ -73,28 +73,10 @@ table {
   }
 
   .section1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .section2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
-
-@media (max-width: 480px) {
-
-
-  /* For screens smaller than 480px */
-
-    .section0 {
-      font-size: 0.8rem;
-    }
-
-    .section1 {
-      font-size: 4rem;
-    }
-
-    .section2 {
-      font-size: 0.6rem;
-    }
-  }

@@ -14,31 +14,21 @@ body {
 .section0 {
   margin-top: 2%;
   margin-bottom: 1%;
-  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
 }
 
 #title0 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 100%;
-  color: black;
-  margin-left: 2%;
-  padding-right: 35%;
-}
-
-.buttons0 {
-  align-items: right;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 50%;
-  font-weight: bold;
-  background-color: white;
-  border-radius: 10px;
-  border: 0.5px solid black;
-  padding: 4px 8px;
-}
-
-#homebutton {
+  font-size: 2rem;
   margin-left: 2%;
 }
+
+#nav {
+  font-size: 1rem;
+  text-align-last: right;
+  padding-left: 40%;
+}
+
 
 .section1 {
   font-family: 'Times New Roman', Times, serif;
@@ -66,9 +56,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  #title0 {
-    padding-right: 15%;
-  }
+
 
   /* For screens smaller than 768px */
   .section0 {
@@ -77,6 +65,23 @@ body {
 
   .section1 {
     font-size: 4rem;
+  }
+
+  .section2 {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+  /* For screens smaller than 480px */
+  .section0 {
+    font-size: 0.8rem;
+  }
+
+  .section1 {
+    font-size: 3rem;
   }
 
   .section2 {

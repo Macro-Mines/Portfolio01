@@ -9,19 +9,19 @@ html {
 
 body {
   height: 200vh;
+  font-family: 'Couier New', Courier, monospace;
 }
 
 .section0 {
   margin-top: 2%;
+  margin-left: 2%;
   margin-bottom: 1%;
-  font-family: 'Courier New', Courier, monospace;
-  color: black;
   font-size: 2rem;
+  padding-right: 2%;
 }
 
 #title0 {
   font-size: 100%;
-  margin-left: 2%;
 }
 
 #nav {
@@ -49,16 +49,36 @@ body {
 .section2 {
   color: white;
   background-color: black;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
   padding-top: 4%;
   padding-bottom: 4%;
   padding-left: 2%;
+  padding-right: 2%;
 }
 
 table {
   padding-top: 1%;
 }
+
+mark {
+  background-color: forestgreen;
+  color: white;
+}
+
+
+.section3 {
+  font-size: 2rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+}
+
+#lang_list {
+  font-size: 1.4rem;
+}
+
 
 @media (max-width: 768px) {
 
@@ -68,15 +88,14 @@ table {
     padding-left: 35%;
   }
 
-  .section0 {
-    font-size: 0.8rem;
-  }
 
   .section1 {
     font-size: 4rem;
   }
 
-  .section2 {
+  .section0,
+  .section2,
+  .section3 {
     font-size: 0.8rem;
   }
 }

@@ -17,6 +17,11 @@ a {
   color: black;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .section0 {
   margin-top: 2%;
   margin-left: 2%;
@@ -32,6 +37,15 @@ a {
 #nav {
   font-size: 50%;
   padding-left: 25%;
+}
+
+.math {
+  margin-left: 2%;
+  padding-top: 1%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

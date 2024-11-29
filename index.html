@@ -12,7 +12,10 @@
 
   <div class="section0">
     <b id="title0">MY PORTFOLIO</b>
-    <b id="nav">ABOUT RESUME PROJECTS CONTACT</b>
+    <b id="nav"><a href="#about_me">ABOUT</a>
+      RESUME
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact_me">CONTACT</a></b>
 
   </div>
   <hr>
@@ -28,7 +31,7 @@
       <tr>
         <td width="70%">
           <p><i>
-              "Hi! I'm Abhinav, a
+              "Hi! I'm Abhinav Raj, a
               passionate student currently
               pursuing my Bachelor's degree in
               <mark>Computer Science</mark>.I love
@@ -67,10 +70,19 @@
   </div>
 
   <div class="section5">
-    <h2>Projects</h2>
-    <table class="table_proj" width="100%" cellpadding="20%">
+    <h2 id="projects">Projects</h2>
+    <table class="table_proj" width="100%" cellpadding="20%" border="2" frame="void" rules="all"">
       <tr>
-        <td>Project 1</td>
+        <th>Project 1</th>
+      </tr>
+      <tr>
+        <td>
+          <h4>STUDENT REGISTRATION FORM</h4>
+          <ul align=" left" type="square">Language used :
+      <li>HTML</li>
+      <li>CSS</li>
+      </ul>
+      <mark><b><a href=" https://macro-mines.github.io/Registration-Form-/">VISIT PROJECT</a></b></mark>
       </tr>
     </table>
 
@@ -83,7 +95,7 @@
 
   <div class="section6">
     <img src="curved-arrow-with-broken-line.png" width="30%">
-    <h2 align=" right">ABOUT ME</h2>
+    <h2 align=" right" id="about_me">ABOUT ME</h2>
   </div>
 
   <div class=" section2">
@@ -105,22 +117,48 @@
     <table width="100%" cellpadding="0%" cellspacing="0%">
       <tr align="jusify">
         <td width="50%">
-          <video controls src="video1.mp4" width="90%" loop>
+          <video controls src="video1.mp4" width="90%" loop></video>
         <td>
-          <video controls src="video2.mp4" width="90%" loop>
+          <video controls src="video2.mp4" width="90%" loop></video>
       <tr>
         <td widht="50%">
-          <video controls src="video3.mp4" width="90%" loop>
+          <video controls src="video3.mp4" width="90%" loop></video>
         <td>
-          <video controls src="video4.mp4" width="90%" loop>
-      </tr>
+          <video controls src="video4.mp4" width="90%" loop></video>
     </table>
   </div>
 
+
   <div class="section8">
-    <h3>CONTACT ME</h3>
+    <h3 id="contact_me">CONTACT ME</h3>
+    <form>
+      <table class="table_lang" border="2" width="100%" frame="void" rules="all" cellpadding="20%">
+        <tr>
+          <td><label for="name">NAME</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <tr>
+          <td><label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <tr>
+          <td><label for="questions">WHAT DO YOU HAVE TO SAY?</label>
+            <textarea id="questions" name="questions" rows="4" cols="30" placeholder="Whats in your mind?"></textarea>
+      </table>
+    </form>
   </div>
 
+
+  <div class="section2">
+    <p>"Thank you for visiting my portfolio!
+      I hope you find it informative and inspiring.
+      Feel free to reach out if you have any questions.
+      Stay connected and let's create something amazing together!"</p>
+  </div>
+
+  <footer>
+    <div>
+      <p align="center">&#10084 © 2024 Abhinav &#10084</p>
+    </div>
+  </footer>
 
 
   <script src="script.js"></script>

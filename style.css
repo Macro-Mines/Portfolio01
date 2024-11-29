@@ -46,8 +46,8 @@ a {
   align-items: left;
   justify-content: left;
   background-image: url("sign.webp");
-  background-size: cover;
-  background-position: -50% -90px;
+  background-size: contain;
+  background-position: right -90px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

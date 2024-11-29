@@ -14,7 +14,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 img {
@@ -23,11 +23,16 @@ img {
 }
 
 .section0 {
-  margin-top: 2%;
-  margin-left: 2%;
-  margin-bottom: 1%;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom: 0.5%;
   font-size: 2rem;
+  padding-top: 4%;
+  padding-bottom: 2%;
   padding-right: 2%;
+  padding-left: 2%;
+  background-color: forestgreen;
+  color: white;
 }
 
 #title0 {
@@ -168,10 +173,7 @@ mark {
   padding-bottom: 4%;
 }
 
-a.section8 {
-  color: white;
-  
-}
+
 
 @media (max-width: 768px) {
 

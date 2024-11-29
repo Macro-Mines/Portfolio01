@@ -35,8 +35,7 @@ a {
 }
 
 
-.section1,
-.section6 {
+.section1 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 10rem;
   padding-top: 8%;
@@ -47,9 +46,8 @@ a {
   align-items: left;
   justify-content: left;
   background-image: url("sign.webp");
-  width: 100%;
   background-size: cover;
-  background-position: center, -100px;
+  background-position: -50% -90px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -165,8 +163,6 @@ mark {
 
   .section1 {
     font-size: 4rem;
-    background-size: contain;
-    height: auto;
   }
 
   .section0,

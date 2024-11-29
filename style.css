@@ -47,8 +47,7 @@ a {
   align-items: left;
   justify-content: left;
   background-image: url("sign.webp");
-  height: auto;
-  width: auto;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,6 +165,9 @@ mark {
 
   .section1 {
     font-size: 4rem;
+    background-size: contain;
+    background-position: -50%, -100px;
+    height: auto;
   }
 
   .section0,

@@ -168,6 +168,10 @@ mark {
   padding-bottom: 4%;
 }
 
+a.section8 {
+  color: white;
+}
+
 @media (max-width: 768px) {
 
 

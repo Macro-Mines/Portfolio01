@@ -70,7 +70,7 @@ img {
 
 .section1,
 .section6,
-.section8:nth-of-type(1) {
+.section8 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 10rem;
   padding-top: 8%;

@@ -45,6 +45,19 @@ img {
   transform: translateY(5px);
 }
 
+
+#myname {
+animation: nameAnimate 3s ease-in-out alternate infinite;
+}
+
+@keyframes nameAnimate {
+	from {letter-spacing: 0px;
+	font-weight: 50;
+	font-family: sans-serif;}
+	to {letter-spacing: 5px;
+	}
+}
+
 .graphic {
   margin-left: 2%;
   padding-top: 1%;

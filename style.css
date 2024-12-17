@@ -47,14 +47,18 @@ img {
 
 
 #myname {
-animation: nameAnimate 3s ease-in-out alternate infinite;
+animation: nameAnimate 3.5s ease-in-out alternate infinite;
 }
 
 @keyframes nameAnimate {
 	from {letter-spacing: 0px;
 	font-weight: 50;
 	font-family: sans-serif;}
+  50% {
+		opacity: 0.1;
+	}
 	to {letter-spacing: 5px;
+      color: forestgreen;
 	}
 }
 

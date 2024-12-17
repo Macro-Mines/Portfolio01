@@ -56,10 +56,12 @@ animation: nameAnimate 4s ease-in-out alternate infinite;
 	font-family: sans-serif;}
   50% {
 		opacity: 0.25;
+  font-weight: 300;
 	}
 	to {letter-spacing: 5px;
       font-family: sans-serif;
       color: #8d0b41;
+      font-weight: 500;
 	}
 }
 

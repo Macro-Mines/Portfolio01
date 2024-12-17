@@ -58,7 +58,7 @@ animation: nameAnimate 3.5s ease-in-out alternate infinite;
 		opacity: 0.1;
 	}
 	to {letter-spacing: 5px;
-      color: forestgreen;
+      color: blueviolet;
 	}
 }
 
